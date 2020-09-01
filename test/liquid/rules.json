@@ -1,0 +1,19 @@
+{
+  "rules": {
+    "composition": {
+      "H2O": ["liquid", "solid", "gas"]
+    },
+    "state": {
+      "liquid": ["liquid"],
+      "solid": ["solid"],
+      "gas": ["gas"]
+    }
+  },
+  "trigger": {
+    "temperature": {
+      "greaterthan100": ["greaterthan100"],
+      "between16and100": ["between16and100"],
+      "lessthan16": ["lessthan16"]
+    }
+  }
+}

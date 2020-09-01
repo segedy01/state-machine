@@ -1,0 +1,27 @@
+{
+  "name": "@asegedy/statemachine",
+  "version": "1.0.0",
+  "description": "A finite state machine library",
+  "homepage": "https://github.com/segedy01/state-machine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segedy01/state-machine"
+  },
+  "keywords": [
+    "finite state machine",
+    "state machine",
+    "state"
+  ],
+  "author": {
+    "name": "Olusegun Adesanya"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:cover": "npm run test -- --coverage",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
