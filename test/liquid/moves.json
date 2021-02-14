@@ -1,0 +1,30 @@
+{
+  "liquid": {
+    "availableStates": {
+      "greaterthan100": {
+        "from": "liquid",
+        "to": "gas"
+      },
+      "lessthan16": {
+        "from": "liquid",
+        "to": "solid"
+      }
+    }
+  },
+  "solid": {
+    "availableStates": {
+      "between16and100": {
+        "from": "solid",
+        "to": "liquid"
+      }
+    }
+  },
+  "gas": {
+    "availableStates": {
+      "between16and100": {
+        "from": "gas",
+        "to": "liquid"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "state": {
+      "idle": ["idle"],
+      "fiveCents": ["fiveCents"],
+      "tenCents": ["tenCents"],
+      "fifteenCents": ["fifteenCents"],
+      "twentyCents": ["twentyCents"],
+      "twentyFiveCents": ["twentyFiveCents"],
+      "thirtyCents": ["thirtyCents"],
+      "thirtyFiveCents": ["thirtyFiveCents"],
+      "fortyCents": ["fourtyCents"],
+      "fortyFiveCents": ["fourtyFiveCents"],
+      "fiftyCents": ["fiftyCents"],
+      "fiftyFiveCents": ["fiftyFiveCents"],
+      "sixtyCents": ["sixtyCents"],
+      "sixtyFiveCents": ["sixtyFiveCents"],
+      "seventyCents": ["seventyCents"],
+      "finish": ["finish"]
+    }
+  },
+  "trigger": {
+    "input": {
+      "fiveCents": ["fiveCents"],
+      "tenCents": ["tenCents"],
+      "twentyCents": ["twentyCents"],
+      "twentyFiveCents": ["twentyFiveCents"],
+      "fiftyCents": ["fiftyCents"],
+      "fiveSeconds": ["fiveSeconds"]
+    }
+  }
+}

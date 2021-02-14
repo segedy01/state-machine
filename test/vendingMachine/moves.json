@@ -1,0 +1,585 @@
+{
+  "idle": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "idle"
+        },
+        "to": {
+          "state": "fiveCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "idle"
+        },
+        "to": {
+          "state": "tenCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "idle"
+        },
+        "to": {
+          "state": "twentyCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "idle"
+        },
+        "to": {
+          "state": "fiftyCents"
+        }
+      }
+    }
+  },
+  "fiveCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "fiveCents"
+        },
+        "to": {
+          "state": "tenCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "fiveCents"
+        },
+        "to": {
+          "state": "fifteenCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "fiveCents"
+        },
+        "to": {
+          "state": "twentyFiveCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "fiveCents"
+        },
+        "to": {
+          "state": "fiftyFiveCents"
+        }
+      }
+    }
+  },
+  "tenCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "tenCents"
+        },
+        "to": {
+          "state": "fifteenCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "tenCents"
+        },
+        "to": {
+          "state": "twentyCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "tenCents"
+        },
+        "to": {
+          "state": "thirtyCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "tenCents"
+        },
+        "to": {
+          "state": "sixtyCents"
+        }
+      }
+    }
+  },
+  "twentyCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "twentyCents"
+        },
+        "to": {
+          "state": "twentyFiveCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "twentyCents"
+        },
+        "to": {
+          "state": "thirtyCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "twentyCents"
+        },
+        "to": {
+          "state": "fortyCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "twentyCents"
+        },
+        "to": {
+          "state": "seventyCents"
+        }
+      }
+
+    }
+  },
+  "fiftyCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "fiftyCents"
+        },
+        "to": {
+          "state": "fiftyFiveCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "fiftyCents"
+        },
+        "to": {
+          "state": "sixtyCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "fiftyCents"
+        },
+        "to": {
+          "state": "seventyCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "fiftyCents"
+        },
+        "to": {
+          "state": "Finish",
+          "balance": "twentyFiveCents"
+        }
+      }
+
+    }
+  },
+  "fifteenCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "fifteenCents"
+        },
+        "to": {
+          "state": "twentyCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "fifteenCents"
+        },
+        "to": {
+          "state": "twentyFiveCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "fifteenCents"
+        },
+        "to": {
+          "state": "thirtyFiveCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "fifteenCents"
+        },
+        "to": {
+          "state": "sixtyFiveCents"
+        }
+      }
+
+    }
+  },
+  "twentyFiveCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "twentyFiveCents"
+        },
+        "to": {
+          "state": "thirtyCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "twentyFiveCents"
+        },
+        "to": {
+          "state": "thirtyFiveCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "twentyFiveCents"
+        },
+        "to": {
+          "state": "fortyFiveCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "twentyFiveCents"
+        },
+        "to": {
+          "state": "Finish",
+          "balance": "zero"
+        }
+      }
+
+    }
+  },
+  "thirtyCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "thirtyCents"
+        },
+        "to": {
+          "state": "thirtyFiveCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "thirtyCents"
+        },
+        "to": {
+          "state": "fortyCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "thirtyCents"
+        },
+        "to": {
+          "state": "fiftyCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "thirtyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fiveCents"
+        }
+      }
+
+    }
+  },
+  "thirtyFiveCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "thirtyFiveCents"
+        },
+        "to": {
+          "state": "fortyCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "thirtyFiveCents"
+        },
+        "to": {
+          "state": "fortyFiveCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "thirtyFiveCents"
+        },
+        "to": {
+          "state": "fiftyFiveCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "thirtyFiveCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "tenCents"
+        }
+      }
+
+    }
+  },
+  "fortyCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "fortyCents"
+        },
+        "to": {
+          "state": "fortyFiveCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "fortyCents"
+        },
+        "to": {
+          "state": "fiftyCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "fortyCents"
+        },
+        "to": {
+          "state": "sixtyCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "fortyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fifteenCents"
+        }
+      }
+
+    }
+  },
+  "fortyFiveCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "fortyFiveCents"
+        },
+        "to": {
+          "state": "fiftyCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "fortyFiveCents"
+        },
+        "to": {
+          "state": "fiftyFiveCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "fortyFiveCents"
+        },
+        "to": {
+          "state": "sixtyFiveCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "fortyFiveCents"
+        },
+        "to": {
+          "state": "Finish",
+          "balance": "twentyCents"
+        }
+      }
+
+    }
+  },
+  "fiftyFiveCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "fiftyFiveCents"
+        },
+        "to": {
+          "state": "sixtyCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "fiftyFiveCents"
+        },
+        "to": {
+          "state": "sixtyFiveCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "fiftyFiveCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "zero"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "fiftyFiveCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "thirtyCents"
+        }
+      }
+
+    }
+  },
+  "sixtyCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "sixtyCents"
+        },
+        "to": {
+          "state": "sixtyFiveCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "sixtyCents"
+        },
+        "to": {
+          "state": "seventyCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "sixtyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fiveCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "sixtyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "thirtyFiveCents"
+        }
+      }
+
+    }
+  },
+  "sixtyFiveCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "sixtyFiveCents"
+        },
+        "to": {
+          "state": "seventyCents"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "sixtyFiveCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "zero"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "sixtyFiveCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "tenCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "sixtyFiveCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fortyCents"
+        }
+      }
+
+    }
+  },
+  "seventyCents": {
+    "availableStates": {
+      "fiveCents": {
+        "from": {
+          "state": "seventyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "zero"
+        }
+      },
+      "tenCents": {
+        "from": {
+          "state": "seventyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fiveCents"
+        }
+      },
+      "twentyCents": {
+        "from": {
+          "state": "seventyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fifteenCents"
+        }
+      },
+      "fiftyCents": {
+        "from": {
+          "state": "seventyCents"
+        },
+        "to": {
+          "state": "finish",
+          "balance": "fortyFiveCents"
+        }
+      }
+
+    }
+  },
+  "finish": {
+    "availableStates": {
+      "fiveSeconds": {
+        "from": {
+          "state": "finish"
+        },
+        "to": {
+          "state": "Idle"
+        }
+      }
+
+    }
+  }
+
+}
